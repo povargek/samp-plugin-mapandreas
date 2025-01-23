@@ -226,7 +226,7 @@ bool CMapAndreas::Unload()
 	}
 	// Free the used memory
 	free(m_pPointData);
-	//m_pPointData = NULL;
+	m_pPointData = NULL;
 	m_iOperatingMode = MAP_ANDREAS_MODE_NONE;
 	return true;
 }
